@@ -1,0 +1,96 @@
+/* ---- CORE ---- */
+
+/* Configurações globais do site */
+body {
+  background-color: #323232;
+  text-align: center;
+}
+
+/* Estilo padrão da linha horizontal */
+hr {
+  border-style: dotted none none;
+  border-color: #E6DDC4;
+  border-width: 5px;
+  width: 10%;
+}
+
+/* Estilo padrão do link */
+a {
+  color: #678983;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-decoration: none;
+}
+
+/* Estilo padrão da imagem */
+img {
+  width: 120px;
+  height: 120px;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+/* Estilo padrão do contêiner */
+.container {
+  color: #E6DDC4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* ---- FORMULÁRIOS ---- */
+
+/* Estilo padrão do input */
+input {
+  background-color: #E6DDC4;
+  width: 120px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+/* Estilo padrão do textarea */
+textarea {
+  background-color: #E6DDC4;
+  border-radius: 5px;
+  border: 1px inset;
+}
+
+/* ---- TIPOGRAFIA ---- */
+
+/* Estilo padrão do parágrafo */
+p {
+  color: #F0E9D2;
+  text-align: center;
+}
+
+/* Estilo padrão do título principal */
+h1 {
+  color: #678983;
+  text-align: center;
+}
+
+/* Estilo padrão do subtítulo */
+h3 {
+  color: #678983;
+  text-align: center;
+}
+
+/* ---- TABELAS E LISTAS ---- */
+
+/* Estilo padrão da tabela */
+table {
+  color: #F0E9D2;
+  margin: 0 auto;
+}
+
+/* Estilo padrão dos itens da lista */
+ul li {
+  color: #F0E9D2;
+  text-align: center;
+  list-style-position: inside;
+}
